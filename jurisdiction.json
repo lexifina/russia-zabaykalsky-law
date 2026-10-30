@@ -1,0 +1,11 @@
+{
+  "path": "ru-zab",
+  "code": "RU-ZAB",
+  "name": "Zabaykalsky Krai",
+  "level": "region",
+  "parent": "ru",
+  "repo": "https://github.com/lexifina/russia-zabaykalsky-law",
+  "build": "catalogue: facts only, no law text (Official Internet Portal of Legal Information metadata)",
+  "language": "ru",
+  "sources": 1
+}

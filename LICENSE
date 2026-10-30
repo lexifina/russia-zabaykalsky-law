@@ -1,0 +1,13 @@
+No law text is published. This repository holds metadata only.
+
+The facts in each file (title, document type, number, date signed, publication date, electronic publication number,
+signing body) come from the metadata API of the Official Internet Portal of Legal Information
+(Официальный интернет-портал правовой информации), http://publication.pravo.gov.ru, whose open-data terms let anyone
+reuse its data freely, including commercially, provided it is used lawfully, not distorted, and a link to the source
+is kept: http://publication.pravo.gov.ru/OpenData. Each file links to the act's own page on the portal.
+
+Laws and other official documents are not objects of copyright in Russia (Civil Code, art. 1259(6)(1)); none of their
+text is reproduced here in any case.
+
+Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the
+tools) are dedicated to the public domain under CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
