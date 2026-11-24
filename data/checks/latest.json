@@ -1,0 +1,66 @@
+{
+ "generated": "2026-11-24T15:06:07Z",
+ "latest": {
+  "pravo-zabaykalsky|russia/zabaykalsky/acts": {
+   "attempt": 1,
+   "audit": {
+    "examples": [],
+    "match_neither": 0,
+    "match_new": 2,
+    "match_old": 0,
+    "method": "each sampled entry's own record on the portal (/api/Document?eoNumber=...), its title, number and date signed against the listing's",
+    "sampled": 2
+   },
+   "census": {
+    "checked": 1638,
+    "current": 1638,
+    "gone": 0,
+    "held": 1638,
+    "newest_in_repo": "2026-10-28",
+    "pending": 0,
+    "repo": 1638,
+    "source_in_scope": 1638
+   },
+   "check_id": "ru-pravo-zabaykalsky-20261124T150507Z",
+   "commits": null,
+   "corpus": "russia/zabaykalsky/acts",
+   "error": null,
+   "finished": "2026-11-24T15:06:07Z",
+   "flags": [],
+   "gap": 0,
+   "note": "publication.pravo.gov.ru, block region75: 1638 law-type documents listed (every page read); 1638 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "no-change",
+   "published": {
+    "added": [],
+    "changed": [],
+    "removed": []
+   },
+   "requests": 12,
+   "runner": "lawwatch russia (65e3dde363)",
+   "schema": "lexifina-check/1",
+   "seen": {
+    "added": [],
+    "changed": [],
+    "removed": []
+   },
+   "snapshot": "1638 law-type documents in block region75; newest published 2026-10-28",
+   "source": "pravo-zabaykalsky",
+   "started": "2026-11-24T15:05:07Z",
+   "unexplained": 0,
+   "update": {
+    "parts": []
+   },
+   "verify": {
+    "cycle_days": 1,
+    "examples": [],
+    "held": 13,
+    "method": "the portal's whole listing for the subject (read this check, every page) parsed by the builder (ru_catalogue.parse) and compared, publication day by publication day, with the corpus this repository is built from; each year's newest state rendered by the builder (gitlaw_common) against the files at the tip of main",
+    "ok": true,
+    "swept": 13,
+    "versions_checked": 281,
+    "versions_differ": 0
+   }
+  }
+ },
+ "schema": "lexifina-check/1"
+}
