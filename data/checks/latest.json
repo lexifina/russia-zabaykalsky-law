@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T15:06:07Z",
+ "generated": "2026-11-25T07:04:08Z",
  "latest": {
   "pravo-zabaykalsky|russia/zabaykalsky/acts": {
    "attempt": 1,
@@ -21,11 +21,11 @@
     "repo": 1638,
     "source_in_scope": 1638
    },
-   "check_id": "ru-pravo-zabaykalsky-20261124T150507Z",
+   "check_id": "ru-pravo-zabaykalsky-20261125T065641Z",
    "commits": null,
    "corpus": "russia/zabaykalsky/acts",
    "error": null,
-   "finished": "2026-11-24T15:06:07Z",
+   "finished": "2026-11-25T06:57:37Z",
    "flags": [],
    "gap": 0,
    "note": "publication.pravo.gov.ru, block region75: 1638 law-type documents listed (every page read); 1638 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
@@ -45,7 +45,7 @@
    },
    "snapshot": "1638 law-type documents in block region75; newest published 2026-10-28",
    "source": "pravo-zabaykalsky",
-   "started": "2026-11-24T15:05:07Z",
+   "started": "2026-11-25T06:56:41Z",
    "unexplained": 0,
    "update": {
     "parts": []
