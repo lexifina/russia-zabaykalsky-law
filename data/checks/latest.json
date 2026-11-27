@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T06:21:27Z",
+ "generated": "2026-11-27T06:13:11Z",
  "latest": {
   "pravo-zabaykalsky|russia/zabaykalsky/acts": {
    "attempt": 1,
@@ -12,26 +12,37 @@
     "sampled": 2
    },
    "census": {
-    "checked": 1638,
+    "checked": 1644,
     "current": 1638,
     "gone": 0,
     "held": 1638,
     "newest_in_repo": "2026-10-28",
-    "pending": 0,
+    "pending": 6,
     "repo": 1638,
-    "source_in_scope": 1638
+    "source_in_scope": 1644
    },
-   "check_id": "ru-pravo-zabaykalsky-20261126T061348Z",
-   "commits": null,
+   "check_id": "ru-pravo-zabaykalsky-20261127T060624Z",
+   "commits": {
+    "count": 3,
+    "from": "124f31bff148b46d2317420ef8fb8c71962a3322",
+    "to": "be4acb7a108e20982febfac62fdc8003aeb7c3ea"
+   },
    "corpus": "russia/zabaykalsky/acts",
    "error": null,
-   "finished": "2026-11-26T06:14:28Z",
+   "finished": "2026-11-27T06:07:16Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region75: 1638 law-type documents listed (every page read); 1638 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
-   "outcome": "no-change",
+   "note": "publication.pravo.gov.ru, block region75: 1644 law-type documents listed (every page read); 1638 held here; 6 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "changed",
    "published": {
-    "added": [],
+    "added": [
+     "7500202611260004",
+     "7500202611260005",
+     "7500202611260006",
+     "7500202611260007",
+     "7500202611270001",
+     "7500202611270003"
+    ],
     "changed": [],
     "removed": []
    },
@@ -39,16 +50,33 @@
    "runner": "lawwatch russia (65e3dde363)",
    "schema": "lexifina-check/1",
    "seen": {
-    "added": [],
+    "added": [
+     "7500202611260004",
+     "7500202611260005",
+     "7500202611260006",
+     "7500202611260007",
+     "7500202611270001",
+     "7500202611270003"
+    ],
     "changed": [],
     "removed": []
    },
-   "snapshot": "1638 law-type documents in block region75; newest published 2026-10-28",
+   "snapshot": "1644 law-type documents in block region75; newest published 2026-11-27",
    "source": "pravo-zabaykalsky",
-   "started": "2026-11-26T06:13:48Z",
+   "started": "2026-11-27T06:06:24Z",
    "unexplained": 0,
    "update": {
-    "parts": []
+    "append": {
+     "commits": 2,
+     "corrections": null,
+     "extended_acts": [
+      "zakony-2026"
+     ],
+     "new_acts": []
+    },
+    "parts": [
+     "95-watch-20261127-001.json"
+    ]
    },
    "verify": {
     "cycle_days": 1,
@@ -57,7 +85,7 @@
     "method": "the portal's whole listing for the subject (read this check, every page) parsed by the builder (ru_catalogue.parse) and compared, publication day by publication day, with the corpus this repository is built from; each year's newest state rendered by the builder (gitlaw_common) against the files at the tip of main",
     "ok": true,
     "swept": 13,
-    "versions_checked": 281,
+    "versions_checked": 283,
     "versions_differ": 0
    }
   }
