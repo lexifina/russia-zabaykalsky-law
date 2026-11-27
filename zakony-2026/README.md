@@ -1,6 +1,6 @@
 # Zabaykalsky Krai: catalogue of the laws published in 2026 (facts only, no law text)
 
-Законы 2026 · 18 versions, from 2026-02-17 (latest in force: 2026-10-28) · <http://publication.pravo.gov.ru/documents/block/region75>
+Законы 2026 · 20 versions, from 2026-02-17 (latest in force: 2026-11-27) · <http://publication.pravo.gov.ru/documents/block/region75>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |
@@ -99,3 +99,9 @@
 | Закон № 2718-ЗЗК | [2718-zzk.md](2718-zzk.md) | 1 | 2026-10-28 |
 | Закон № 2719-ЗЗК | [2719-zzk.md](2719-zzk.md) | 1 | 2026-10-28 |
 | Закон № 2720-ЗЗК | [2720-zzk.md](2720-zzk.md) | 1 | 2026-10-28 |
+| Закон № 2721-ЗЗК | [2721-zzk.md](2721-zzk.md) | 1 | 2026-11-26 |
+| Закон № 2722-ЗЗК | [2722-zzk.md](2722-zzk.md) | 1 | 2026-11-26 |
+| Закон № 2723-ЗЗК | [2723-zzk.md](2723-zzk.md) | 1 | 2026-11-27 |
+| Закон № 2726-ЗЗК | [2726-zzk.md](2726-zzk.md) | 1 | 2026-11-26 |
+| Закон № 2727-ЗЗК | [2727-zzk.md](2727-zzk.md) | 1 | 2026-11-26 |
+| Закон № 2728-ЗЗК | [2728-zzk.md](2728-zzk.md) | 1 | 2026-11-27 |
