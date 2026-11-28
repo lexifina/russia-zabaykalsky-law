@@ -1,6 +1,6 @@
 # How this repository was made (Zabaykalsky Krai)
 
-This file is written by the build on 2026-11-27, the day the source data was retrieved.
+This file is written by the build on 2026-11-28, the day the source data was retrieved.
 
 ## Sources
 
@@ -40,18 +40,18 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `zakony-2025` | Zabaykalsky Krai: catalogue of the laws published in 2025 (facts only, no law text) | 20 | 2025-03-05 to 2025-12-29 |
 | `zakony-2026` | Zabaykalsky Krai: catalogue of the laws published in 2026 (facts only, no law text) | 20 | 2026-02-17 to 2026-11-27 |
 
-The build made 283 commits:
+The build made 284 commits:
 
 | Commits | Kind |
 | ---: | --- |
 | 13 | baseline texts where the record starts |
 | 270 | named laws, court decisions and treaties |
 | 0 | changes no amendment note explains, credited to the publisher |
-| 0 | corrections to the existing record |
+| 1 | corrections to the existing record |
 | 0 | printing or layout changes |
 
 Other counts:
-- 0 commits on the branch `future`: laws not yet in force on 2026-11-27.
+- 0 commits on the branch `future`: laws not yet in force on 2026-11-28.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
 - 270 laws in the record.
 - 553 tags.
@@ -66,7 +66,7 @@ When a law gives no date of its own, the default rule applies: Catalogue entries
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `247e4f98cf6c90758cdef76a06e1da036b8cfaaf59b818d6324c087c63b104ab` (1641103 bytes).
+- Corpus: sha256 `6ef0fe026f6803ede64325e6505b6259713481b694ade574ab8eb71dc69d5136` (1739598 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `3ed15ed797641367480d7d9c7e1a7c0b0f34d538`, `check.py` `e340718c28cd5b0edbe37bdeab1aac31427ada66`, `on.py` `467264bb286660494d9b93836dbef5109b4fa759`.
 - Python 3.14.0; git version 2.52.0.windows.1.
 

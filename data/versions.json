@@ -2646,9 +2646,9 @@
      "to": null,
      "status": "as captured",
      "text_as_of": null,
-     "units": 101,
+     "units": 105,
      "source_url": "http://publication.pravo.gov.ru/api/Documents?Block=region75",
-     "sha256": "8b7038ff0674e43bf1ddd3a951ce94e8e403294c77cb17dfc0ce992bcf487973"
+     "sha256": "ff45c7984cc2fc5a494288c85a82efc261f2a7bde7a0ad7ab5209063d8b51c86"
     }
    ]
   }
