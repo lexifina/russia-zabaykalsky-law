@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T06:13:11Z",
+ "generated": "2026-11-28T06:27:27Z",
  "latest": {
   "pravo-zabaykalsky|russia/zabaykalsky/acts": {
    "attempt": 1,
@@ -12,36 +12,34 @@
     "sampled": 2
    },
    "census": {
-    "checked": 1644,
-    "current": 1638,
+    "checked": 1648,
+    "current": 1644,
     "gone": 0,
-    "held": 1638,
-    "newest_in_repo": "2026-10-28",
-    "pending": 6,
-    "repo": 1638,
-    "source_in_scope": 1644
+    "held": 1644,
+    "newest_in_repo": "2026-11-27",
+    "pending": 4,
+    "repo": 1644,
+    "source_in_scope": 1648
    },
-   "check_id": "ru-pravo-zabaykalsky-20261127T060624Z",
+   "check_id": "ru-pravo-zabaykalsky-20261128T062042Z",
    "commits": {
-    "count": 3,
-    "from": "124f31bff148b46d2317420ef8fb8c71962a3322",
-    "to": "be4acb7a108e20982febfac62fdc8003aeb7c3ea"
+    "count": 2,
+    "from": "6bcef0e268484b113daf7ec47bf3d9a3e2d2a374",
+    "to": "32f87767814322e904ab7d7acc40bab729406ad1"
    },
    "corpus": "russia/zabaykalsky/acts",
    "error": null,
-   "finished": "2026-11-27T06:07:16Z",
+   "finished": "2026-11-28T06:21:36Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region75: 1644 law-type documents listed (every page read); 1638 held here; 6 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "note": "publication.pravo.gov.ru, block region75: 1648 law-type documents listed (every page read); 1644 held here; 4 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
    "outcome": "changed",
    "published": {
     "added": [
-     "7500202611260004",
-     "7500202611260005",
-     "7500202611260006",
-     "7500202611260007",
-     "7500202611270001",
-     "7500202611270003"
+     "7500202611270009",
+     "7500202611270010",
+     "7500202611270011",
+     "7500202611270012"
     ],
     "changed": [],
     "removed": []
@@ -51,31 +49,27 @@
    "schema": "lexifina-check/1",
    "seen": {
     "added": [
-     "7500202611260004",
-     "7500202611260005",
-     "7500202611260006",
-     "7500202611260007",
-     "7500202611270001",
-     "7500202611270003"
+     "7500202611270009",
+     "7500202611270010",
+     "7500202611270011",
+     "7500202611270012"
     ],
     "changed": [],
     "removed": []
    },
-   "snapshot": "1644 law-type documents in block region75; newest published 2026-11-27",
+   "snapshot": "1648 law-type documents in block region75; newest published 2026-11-27",
    "source": "pravo-zabaykalsky",
-   "started": "2026-11-27T06:06:24Z",
+   "started": "2026-11-28T06:20:42Z",
    "unexplained": 0,
    "update": {
     "append": {
-     "commits": 2,
-     "corrections": null,
-     "extended_acts": [
-      "zakony-2026"
-     ],
+     "commits": 1,
+     "corrections": 1,
+     "extended_acts": [],
      "new_acts": []
     },
     "parts": [
-     "95-watch-20261127-001.json"
+     "95-watch-20261128-001.json"
     ]
    },
    "verify": {

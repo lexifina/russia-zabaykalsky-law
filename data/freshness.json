@@ -1,13 +1,13 @@
 {
  "schema": "lexifina-trail-freshness/1",
- "as_of": "2026-11-27",
+ "as_of": "2026-11-28",
  "note": "How current this repository is, from its check trail (data/checks/): the day each official source was last read with every act held here checked against it. tools/checktrail.py reads the trail.",
- "checked_against_official_source": "2026-11-27",
+ "checked_against_official_source": "2026-11-28",
  "totals": {
-  "acts": 1638,
+  "acts": 1644,
   "by_status": {
-   "current": 1632,
-   "pending-change": 6,
+   "current": 1640,
+   "pending-change": 4,
    "stale": 0,
    "unverified": 0,
    "source-unavailable": 0
@@ -18,8 +18,8 @@
    "source": "pravo-zabaykalsky",
    "name": "Zabaykalsky Krai: Official Internet Portal of Legal Information (region75)",
    "state": "available",
-   "last_successful_check": "2026-11-27",
-   "last_successful_contact": "2026-11-27"
+   "last_successful_check": "2026-11-28",
+   "last_successful_contact": "2026-11-28"
   }
  ]
 }
